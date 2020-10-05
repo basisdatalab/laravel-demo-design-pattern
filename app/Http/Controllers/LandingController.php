@@ -15,7 +15,13 @@ class LandingController extends Controller
     {
         return response()->json('lab data science');
     }
+
     public function API($params){
         return response()->json('test');
+
+    public function landing()
+    {
+        return response()->json('Tes Landing');
+
     }
 }
